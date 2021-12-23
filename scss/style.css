@@ -56,7 +56,7 @@ header h1 {
   font-family: "Noto Sans", sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 48px;
+  font-size: 42px;
   line-height: 87px;
   color: #fff;
 }
@@ -83,7 +83,7 @@ header a, header .sl {
   font-family: "Noto Sans", sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 24px;
+  font-size: 18px;
   line-height: 49px;
   color: #fff;
   text-decoration: none !important;
@@ -163,5 +163,30 @@ header .sl {
 
 .about-us {
   height: 399px;
+}
+
+.about-us h4 {
+  font-family: "Noto Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 65px;
+}
+
+.about-text {
+  width: 562px;
+  height: auto;
+}
+
+.about-text p {
+  font-family: "Noto Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 33px;
+}
+
+.about-text b {
+  font-weight: 600;
 }
 /*# sourceMappingURL=style.css.map */

@@ -1,12 +1,38 @@
-.about{
+.about {
     margin: $m-a-25;
 }
+
 .about-image {
     img {
         height: 389px;
         width: auto;
     }
 }
-.about-us{
+
+.about-us {
     height: 399px;
+    h4{
+    font-family: $noto-sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 65px;
+    }
+}
+
+.about-text {
+    width: 562px;
+    height: auto;
+
+    p {
+        font-family: $noto-sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 33px;
+    }
+
+    b {
+        font-weight: 600;
+    }
 }
