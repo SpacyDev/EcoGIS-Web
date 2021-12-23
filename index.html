@@ -74,13 +74,15 @@
         </nav>
     </header>
     <section class="home container-fluid">
-        <div class="video-world container-fluid d-flex justify-content-center"><video src="video/world.mp4" loop
-                autoplay></video></div>
+        <div class="video-world container-fluid d-flex justify-content-center">
+            <video autoplay muted playsinline>
+                <source src="video/world.mp4" type="video/mp4">
+            </video></div>
     </section>
     <section class="about">
-        <div class="about row justify-content-between">
-            <div class="about-us col">
-                <h4>About us</h4>
+        <div class="about">
+            <h4>About us</h4>
+            <div class="about-us">
                 <div class="about-text">
                     <p>
                         <b>Lorem Ipsum</b> is simply dummy text of the printing and typesetting industry. Lorem Ipsum
@@ -95,12 +97,11 @@
                         with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
                     </p>
                 </div>
-            </div>
-            <div class="about-image col">
-                <img src="img/image.png" alt="logo">
+                <div class="about-image">
+                    <img src="img/image.png" alt="logo">
+                </div>
             </div>
         </div>
-        <div></div>
     </section>
     <section class="projects">
 

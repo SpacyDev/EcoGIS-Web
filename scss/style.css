@@ -152,41 +152,16 @@ header .sl {
   }
 }
 
-.about {
-  margin: auto 25px;
-}
-
-.about-image img {
-  height: 389px;
-  width: auto;
-}
-
 .about-us {
-  height: 399px;
-}
-
-.about-us h4 {
-  font-family: "Noto Sans", sans-serif;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 42px;
-  line-height: 65px;
-}
-
-.about-text {
-  width: 562px;
-  height: auto;
-}
-
-.about-text p {
-  font-family: "Noto Sans", sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 33px;
-}
-
-.about-text b {
-  font-weight: 600;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 /*# sourceMappingURL=style.css.map */
