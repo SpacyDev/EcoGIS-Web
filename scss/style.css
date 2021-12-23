@@ -1,3 +1,7 @@
+.navbar {
+  margin: auto 25px;
+}
+
 .container-fluid {
   padding: auto 104px;
 }
@@ -82,6 +86,13 @@ header a, header .sl {
   font-size: 24px;
   line-height: 49px;
   color: #fff;
+  text-decoration: none !important;
+}
+
+header a:hover {
+  color: #39c217 !important;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 header .sl {
@@ -95,7 +106,6 @@ header .sl {
   -webkit-box-align: baseline;
       -ms-flex-align: baseline;
           align-items: baseline;
-  margin: auto 25px;
 }
 
 @media (max-width: 990px) {
@@ -113,5 +123,45 @@ header .sl {
         -ms-flex-align: start;
             align-items: flex-start;
   }
+}
+
+.home {
+  background-color: black;
+}
+
+.video-world {
+  height: 90vh;
+  width: auto;
+}
+
+@media (max-width: 1024px) {
+  .video-world {
+    height: 70vh;
+  }
+}
+
+@media (max-width: 768px) {
+  .video-world {
+    height: 35vh;
+  }
+}
+
+@media (max-width: 420px) {
+  .video-world {
+    height: 20vh;
+  }
+}
+
+.about {
+  margin: auto 25px;
+}
+
+.about-image img {
+  height: 389px;
+  width: auto;
+}
+
+.about-us {
+  height: 399px;
 }
 /*# sourceMappingURL=style.css.map */

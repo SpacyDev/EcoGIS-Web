@@ -35,17 +35,19 @@ header {
         font-size: 24px;
         line-height: 49px;
         color: #fff;
+        text-decoration: none!important;
+    }
+    a:hover{
+        color: #39c217!important;
+        transition: 0.3s;
     }
     .sl{
         display: inline;
     }
 }
-
-
 .navbar{
     display: flex;
     align-items: baseline;
-    margin: auto 25px;
 }
 @media (max-width:990px) {
     .navbar{
