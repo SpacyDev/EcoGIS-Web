@@ -10,10 +10,6 @@
   margin: 0 auto;
 }
 
-.gap-50 {
-  gap: 0 50px;
-}
-
 h1 {
   margin: 0 !important;
 }
@@ -24,6 +20,14 @@ ul {
 
 a {
   text-decoration: none;
+}
+
+.bg-dark {
+  background-color: black !important;
+}
+
+.gl {
+  color: #39c217 !important;
 }
 
 .header-ul {
@@ -71,12 +75,43 @@ header span {
           align-items: flex-end;
 }
 
-header a {
+header a, header .sl {
   font-family: "Noto Sans", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 24px;
   line-height: 49px;
   color: #fff;
+}
+
+header .sl {
+  display: inline;
+}
+
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  margin: auto 25px;
+}
+
+@media (max-width: 990px) {
+  .navbar {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .show {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
 }
 /*# sourceMappingURL=style.css.map */
